@@ -3,83 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Juegos Demo</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        header {
-            background-color: #2576f2;
-            color: #fff;
-            padding: 1rem;
-            text-align: center;
-            width: 100%;
-        }
-        main {
-            max-width: 800px;
-            width: 90%;
-            margin: 2rem auto;
-        }
-        .game-card {
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 1.5rem;
-            padding: 1rem;
-            text-align: center;
-        }
-        .game-card h3 {
-            margin: 0.5rem 0;
-        }
-        .game-card iframe {
-            border: none;
-            width: 100%;
-            height: 300px;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background: #6200ea;
-            color: #fff;
-            width: 100%;
-            position: absolute;
-            bottom: 0;
-        }
-    </style>
+    <title>The Gamer Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Juegos Demo</h1>
-        <p>Prueba nuestros juegos directamente desde tu navegador.</p>
+    <header class="header">
+        <h1>The Gamer Library</h1>
+        <input type="text" placeholder="Buscar..." class="search-bar">
     </header>
-    <main>
-        <div class="game-card">
-            <h3>Juego Demo 1</h3>
-            <iframe src="https://example.com/demo-game1"></iframe>
-            <p><a href="https://example.com/demo-game1" target="_blank">Jugar en pantalla completa</a></p>
-        </div>
-        <div class="game-card">
-            <h3>Juego Demo 2</h3>
-            <iframe src="https://example.com/demo-game2"></iframe>
-            <p><a href="https://example.com/demo-game2" target="_blank">Jugar en pantalla completa</a></p>
-        </div>
-        <div class="game-card">
-            <h3>Juego Demo 3</h3>
-            <iframe src="https://example.com/demo-game3"></iframe>
-            <p><a href="https://example.com/demo-game3" target="_blank">Jugar en pantalla completa</a></p>
-        </div>
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#emuladores">Emuladores</a></li>
+            <li><a href="#celulares">Celulares</a></li>
+            <li><a href="#juegos">Juegos</a></li>
+            <li><a href="#extra">Extra</a></li>
+            <li><a href="#programas">Programas</a></li>
+            <li><a href="#sistemas">Sistemas</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <section id="extra">
+            <h2>Cosas Extras</h2>
+            <ul class="item-list">
+                <li>Bloqueador de Anuncios</li>
+                <li>Bloxorz Web</li>
+                <li>Comprimir audios y videos online</li>
+                <li>Corregir píxeles muertos</li>
+                <li>Doom 1 y 2</li>
+                <li>Half Life Web</li>
+                <li>Historia de The Gamer Library</li>
+                <li>Launcher de los proyectos</li>
+                <li>Los antivirus y las detecciones</li>
+                <li>Minecraft 1.8 Web</li>
+                <li>Mods Friday Night Funkin</li>
+                <li>Optimizar Twitch</li>
+            </ul>
+        </section>
+        <section class="downloads">
+            <h2>Descargas</h2>
+            <button class="download-btn">Chrome</button>
+            <button class="download-btn">Firefox</button>
+        </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Página de Juegos Demo</p>
+    <footer class="footer">
+        <p>&copy; 2025 The Gamer Library</p>
     </footer>
 </body>
 </html>
+
 
