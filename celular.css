@@ -1,0 +1,10 @@
+.header {
+    position: static; /* Cambiar a posición estática */
+    text-align: center;
+    margin: 20px 0;
+}
+
+.links-container {
+    width: 90%; /* Ajustar ancho en pantallas pequeñas */
+    max-width: 600px; /* Ancho máximo en pantallas grandes */
+}
