@@ -1,72 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Definir el conjunto de caracteres para el documento -->
     <meta charset="UTF-8">
-    <!-- Definir el título de la página que se muestra en la pestaña del navegador -->
     <title>Biblioteca Gamer</title>
     <style>
-        /* Estilo general para el cuerpo de la página */
         body {
-            font-family: Arial, sans-serif; /* Define la fuente de la página */
-            background-color: #f0f0f0; /* Color de fondo */
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
             margin: 0;
             padding: 0;
         }
 
-        /* Estilo para el contenedor del título */
         .header {
-            position: absolute; /* Coloca el título en una posición absoluta */
-            top: 10px; /* Distancia desde la parte superior */
-            left: 10px; /* Distancia desde la parte izquierda */
-            font-size: 36px; /* Tamaño del texto del título */
-            color: #00bcd4; /* Color del título (azul cian) */
-            font-weight: bold; /* Hace el texto en negrita */
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 36px;
+            color: #00bcd4;
+            font-weight: bold;
         }
 
-        /* Estilo para los enlaces de la página */
         .links-container {
-         margin-top: 50px; /* Distancia desde el título */
-         padding: 20px;
-         text-align: left;
-         width: 30%; /* Cambia este valor para hacer el contenedor más estrecho */
-          margin-left: auto;
-           margin-right: auto;
+            margin-top: 100px; /* Espacio desde el título */
+            padding: 20px;
+            text-align: left;
+            width: 30%;
+            height: 300px; /* Altura fija para el contenedor */
+            overflow-y: auto; /* Habilita la barra de desplazamiento vertical */
+            background-color: #ffffff; /* Fondo blanco para diferenciar */
+            border: 1px solid #ccc; /* Borde alrededor del contenedor */
+            border-radius: 10px; /* Bordes redondeados */
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar el contenedor */
         }
 
         .link {
-            display: block; /* Cada enlace ocupará su propia línea */
-            font-size: 20px; /* Tamaño del texto de los enlaces */
-            color: #333; /* Color de los enlaces */
-            margin: 5px 0; /* Margen entre los enlaces */
-            text-decoration: none; /* Elimina el subrayado de los enlaces */
+            display: block;
+            font-size: 20px;
+            color: #333;
+            margin: 5px 0;
+            text-decoration: none;
             padding: 5px;
-            background-color: #e0e0e0; /* Fondo gris claro para cada enlace */
-            border-radius: 5px; /* Bordes redondeados */
-            transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
 
-        /* Estilo para cuando el ratón pasa sobre los enlaces */
         .link:hover {
-            background-color: #00bcd4; /* Fondo azul cian al pasar el ratón */
-            color: white; /* Color del texto blanco */
+            background-color: #00bcd4;
+            color: white;
         }
     </style>
 </head>
 <body>
 
-    <!-- Contenedor del título de la página -->
     <div class="header">
         Biblioteca Gamer
     </div>
 
-    <!-- Contenedor de los enlaces -->
     <div class="links-container">
-        <!-- Enlaces de ejemplo -->
-        <a href="https://drive.google.com/file/d/17wSnWgTh4-c_oO3yqpgsp1_Q_uSx7JgV/view" class="link">half life </a>
-        <a href="https://www.mediafire.com/file/2tvuyscu87xhtyd/COUNTER-STRIKE_1.6_BY_MK_DIR.rar/file" class="link">counter 1.6</a>
+        <a href="https://drive.google.com/file/d/17wSnWgTh4-c_oO3yqpgsp1_Q_uSx7JgV/view" class="link">Half-Life</a>
+        <a href="https://www.mediafire.com/file/2tvuyscu87xhtyd/COUNTER-STRIKE_1.6_BY_MK_DIR.rar/file" class="link">Counter-Strike 1.6</a>
         <a href="https://www.mediafire.com/file/if7vo48hlkun1rd" class="link">Minecraft</a>
-        <!-- Puedes agregar más enlaces aquí -->
+        <a href="#" class="link">Juego 4</a>
+        <a href="#" class="link">Juego 5</a>
+        <a href="#" class="link">Juego 6</a>
+        <a href="#" class="link">Juego 7</a>
+        <a href="#" class="link">Juego 8</a>
+        <a href="#" class="link">Juego 9</a>
+        <a href="#" class="link">Juego 10</a>
+        <!-- Agrega más enlaces si lo deseas -->
     </div>
 
 </body>
